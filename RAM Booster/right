@@ -535,3 +535,96 @@ Allows an app to enter Picture-in-Picture mode when the user is not explicitly r
 String
 UNINSTALL_SHORTCUT
 Don't use this permission in your app.
+Allows an app to enter Picture-in-Picture mode when the user is not explicitly requesting it.
+
+String
+UNINSTALL_SHORTCUT
+Don't use this permission in your app.
+
+String
+UPDATE_DEVICE_STATS
+Allows an application to update device statistics.
+
+String
+UPDATE_PACKAGES_WITHOUT_USER_ACTION
+Allows an application to indicate via PackageInstaller.SessionParams.setRequireUserAction(int) that user action should not be required for an app update.
+
+String
+USE_BIOMETRIC
+Allows an app to use device supported biometric modalities.
+
+String
+USE_EXACT_ALARM
+Allows apps to use exact alarms just like with SCHEDULE_EXACT_ALARM but without needing to request this permission from the user.
+
+String
+USE_FINGERPRINT
+This constant was deprecated in API level 28. Applications should request USE_BIOMETRIC instead
+
+String
+USE_FULL_SCREEN_INTENT
+Required for apps targeting Build.VERSION_CODES.Q that want to use notification full screen intents.
+
+String
+USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+Allows to read device identifiers and use ICC based authentication like EAP-AKA.
+
+String
+USE_SIP
+Allows an application to use SIP service.
+
+String
+UWB_RANGING
+Required to be able to range to devices using ultra-wideband.
+
+String
+VIBRATE
+Allows access to the vibrator.
+
+String
+WAKE_LOCK
+Allows using PowerManager WakeLocks to keep processor from sleeping or screen from dimming.
+
+String
+WRITE_APN_SETTINGS
+Allows applications to write the apn settings and read sensitive fields of an existing apn settings like user and password.
+
+String
+WRITE_CALENDAR
+Allows an application to write the user's calendar data.
+
+String
+WRITE_CALL_LOG
+Allows an application to write and read the user's call log data.
+
+String
+WRITE_CONTACTS
+Allows an application to write the user's contacts data.
+
+String
+WRITE_EXTERNAL_STORAGE
+Allows an application to write to external storage.
+
+String
+WRITE_GSERVICES
+Allows an application to modify the Google service map.
+
+String
+WRITE_SECURE_SETTINGS
+Allows an application to read or write the secure system settings.
+
+String
+WRITE_SETTINGS
+Allows an application to read or write the system settings.
+
+String
+WRITE_SYNC_SETTINGS
+Allows applications to write the sync settings.
+
+String
+WRITE_SYSTEM_PREFERENCES
+Allows an application to access the Settings Preference services to write settings values exposed by the system Settings app and system apps that contribute settings surfaced in the Settings app.
+
+String
+WRITE_VOICEMAIL
+Allows an application to modify and remove existing voicemails in the system.
