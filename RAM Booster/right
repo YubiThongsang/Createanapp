@@ -1,0 +1,537 @@
+
+MANAGE_DEVICE_POLICY_PROFILE_INTERACTION
+Allows an application to set policy related to interacting with profiles (e.g. Disallowing cross-profile copy and paste).
+
+String
+MANAGE_DEVICE_POLICY_PROXY
+Allows an application to set a network-independent global HTTP proxy.
+
+String
+MANAGE_DEVICE_POLICY_QUERY_SYSTEM_UPDATES
+Allows an application query system updates.
+
+String
+MANAGE_DEVICE_POLICY_RESET_PASSWORD
+Allows an application to force set a new device unlock password or a managed profile challenge on current user.
+
+String
+MANAGE_DEVICE_POLICY_RESTRICT_PRIVATE_DNS
+Allows an application to set policy related to restricting the user from configuring private DNS.
+
+String
+MANAGE_DEVICE_POLICY_RUNTIME_PERMISSIONS
+Allows an application to set the grant state of runtime permissions on packages.
+
+String
+MANAGE_DEVICE_POLICY_RUN_IN_BACKGROUND
+Allows an application to set policy related to users running in the background.
+
+String
+MANAGE_DEVICE_POLICY_SAFE_BOOT
+Allows an application to manage safe boot policy.
+
+String
+MANAGE_DEVICE_POLICY_SCREEN_CAPTURE
+Allows an application to set policy related to screen capture.
+
+String
+MANAGE_DEVICE_POLICY_SCREEN_CONTENT
+Allows an application to set policy related to the usage of the contents of the screen.
+
+String
+MANAGE_DEVICE_POLICY_SECURITY_LOGGING
+Allows an application to set policy related to security logging.
+
+String
+MANAGE_DEVICE_POLICY_SETTINGS
+Allows an application to set policy related to settings.
+
+String
+MANAGE_DEVICE_POLICY_SMS
+Allows an application to set policy related to sms.
+
+String
+MANAGE_DEVICE_POLICY_STATUS_BAR
+Allows an application to set policy related to the status bar.
+
+String
+MANAGE_DEVICE_POLICY_SUPPORT_MESSAGE
+Allows an application to set support messages for when a user action is affected by an active policy.
+
+String
+MANAGE_DEVICE_POLICY_SUSPEND_PERSONAL_APPS
+Allows an application to set policy related to suspending personal apps.
+
+String
+MANAGE_DEVICE_POLICY_SYSTEM_APPS
+Allows an application to manage policy related to system apps.
+
+String
+MANAGE_DEVICE_POLICY_SYSTEM_DIALOGS
+Allows an application to set policy related to system dialogs.
+
+String
+MANAGE_DEVICE_POLICY_SYSTEM_UPDATES
+Allows an application to set policy related to system updates.
+
+String
+MANAGE_DEVICE_POLICY_THREAD_NETWORK
+Allows an application to set policy related to Thread network.
+
+String
+MANAGE_DEVICE_POLICY_TIME
+Allows an application to manage device policy relating to time.
+
+String
+MANAGE_DEVICE_POLICY_USB_DATA_SIGNALLING
+Allows an application to set policy related to usb data signalling.
+
+String
+MANAGE_DEVICE_POLICY_USB_FILE_TRANSFER
+Allows an application to set policy related to usb file transfers.
+
+String
+MANAGE_DEVICE_POLICY_USERS
+Allows an application to set policy related to users.
+
+String
+MANAGE_DEVICE_POLICY_VPN
+Allows an application to set policy related to VPNs.
+
+String
+MANAGE_DEVICE_POLICY_WALLPAPER
+Allows an application to set policy related to the wallpaper.
+
+String
+MANAGE_DEVICE_POLICY_WIFI
+Allows an application to set policy related to Wifi.
+
+String
+MANAGE_DEVICE_POLICY_WINDOWS
+Allows an application to set policy related to windows.
+
+String
+MANAGE_DEVICE_POLICY_WIPE_DATA
+Allows an application to manage policy related to wiping data.
+
+String
+MANAGE_DOCUMENTS
+Allows an application to manage access to documents, usually as part of a document picker.
+
+String
+MANAGE_EXTERNAL_STORAGE
+Allows an application a broad access to external storage in scoped storage.
+
+String
+MANAGE_MEDIA
+Allows an application to modify and delete media files on this device or any connected storage device without user confirmation.
+
+String
+MANAGE_ONGOING_CALLS
+Allows to query ongoing call details and manage ongoing calls
+
+Protection level: signature|appop
+
+String
+MANAGE_OWN_CALLS
+Allows a calling application which manages its own calls through the self-managed ConnectionService APIs.
+
+String
+MANAGE_WIFI_INTERFACES
+Allows applications to get notified when a Wi-Fi interface request cannot be satisfied without tearing down one or more other interfaces, and provide a decision whether to approve the request or reject it.
+
+String
+MANAGE_WIFI_NETWORK_SELECTION
+This permission is used to let OEMs grant their trusted app access to a subset of privileged wifi APIs to improve wifi performance.
+
+String
+MASTER_CLEAR
+Not for use by third-party applications.
+
+String
+MEDIA_CONTENT_CONTROL
+Allows an application to know what content is playing and control its playback.
+
+String
+MEDIA_ROUTING_CONTROL
+Allows an application to control the routing of media apps.
+
+String
+MODIFY_AUDIO_SETTINGS
+Allows an application to modify global audio settings.
+
+String
+MODIFY_PHONE_STATE
+Allows modification of the telephony state - power on, mmi, etc.
+
+String
+MOUNT_FORMAT_FILESYSTEMS
+Allows formatting file systems for removable storage.
+
+String
+MOUNT_UNMOUNT_FILESYSTEMS
+Allows mounting and unmounting file systems for removable storage.
+
+String
+NEARBY_WIFI_DEVICES
+Required to be able to advertise and connect to nearby devices via Wi-Fi.
+
+String
+NFC
+Allows applications to perform I/O operations over NFC.
+
+String
+NFC_PREFERRED_PAYMENT_INFO
+Allows applications to receive NFC preferred payment service information.
+
+String
+NFC_TRANSACTION_EVENT
+Allows applications to receive NFC transaction events.
+
+String
+OVERRIDE_WIFI_CONFIG
+Allows an application to modify any wifi configuration, even if created by another application.
+
+String
+PACKAGE_USAGE_STATS
+Allows an application to collect component usage statistics
+
+Declaring the permission implies intention to use the API and the user of the device can grant permission through the Settings application.
+
+String
+PERSISTENT_ACTIVITY
+This constant was deprecated in API level 15. This functionality will be removed in the future; please do not use. Allow an application to make its activities persistent.
+
+String
+POST_NOTIFICATIONS
+Allows an app to post notifications
+
+Protection level: dangerous
+
+String
+PROCESS_OUTGOING_CALLS
+This constant was deprecated in API level 29. Applications should use CallRedirectionService instead of the Intent.ACTION_NEW_OUTGOING_CALL broadcast.
+
+String
+PROVIDE_OWN_AUTOFILL_SUGGESTIONS
+Allows an application to display its suggestions using the autofill framework.
+
+String
+PROVIDE_REMOTE_CREDENTIALS
+Allows an application to be able to store and retrieve credentials from a remote device.
+
+String
+QUERY_ADVANCED_PROTECTION_MODE
+Allows an application to query the device's advanced protection mode status.
+
+String
+QUERY_ALL_PACKAGES
+Allows query of any normal app on the device, regardless of manifest declarations.
+
+String
+RANGING
+Required to be able to range to devices using generic ranging module.
+
+String
+READ_ASSISTANT_APP_SEARCH_DATA
+Allows an application to query over global data in AppSearch that's visible to the ASSISTANT role.
+
+String
+READ_BASIC_PHONE_STATE
+Allows read only access to phone state with a non dangerous permission, including the information like cellular network type, software version.
+
+String
+READ_CALENDAR
+Allows an application to read the user's calendar data.
+
+String
+READ_CALL_LOG
+Allows an application to read the user's call log.
+
+String
+READ_COLOR_ZONES
+Allows an application to read the aggregated color zones on the screen for use cases like TV ambient backlight usages.
+
+String
+READ_CONTACTS
+Allows an application to read the user's contacts data.
+
+String
+READ_DROPBOX_DATA
+Allows an application to access the data in Dropbox.
+
+String
+READ_EXTERNAL_STORAGE
+Allows an application to read from external storage.
+
+String
+READ_HOME_APP_SEARCH_DATA
+Allows an application to query over global data in AppSearch that's visible to the HOME role.
+
+String
+READ_INPUT_STATE
+This constant was deprecated in API level 16. The API that used this permission has been removed.
+
+String
+READ_LOGS
+Allows an application to read the low-level system log files.
+
+String
+READ_MEDIA_AUDIO
+Allows an application to read audio files from external storage.
+
+String
+READ_MEDIA_IMAGES
+Allows an application to read image files from external storage.
+
+String
+READ_MEDIA_VIDEO
+Allows an application to read video files from external storage.
+
+String
+READ_MEDIA_VISUAL_USER_SELECTED
+Allows an application to read image or video files from external storage that a user has selected via the permission prompt photo picker.
+
+String
+READ_NEARBY_STREAMING_POLICY
+Allows an application to read nearby streaming policy.
+
+String
+READ_PHONE_NUMBERS
+Allows read access to the device's phone number(s), which is exposed to instant applications.
+
+String
+READ_PHONE_STATE
+Allows read only access to phone state, including the current cellular network information, the status of any ongoing calls, and a list of any PhoneAccounts registered on the device.
+
+String
+READ_PRECISE_PHONE_STATE
+Allows read only access to precise phone state.
+
+String
+READ_SMS
+Allows an application to read SMS messages.
+
+String
+READ_SYNC_SETTINGS
+Allows applications to read the sync settings.
+
+String
+READ_SYNC_STATS
+Allows applications to read the sync stats.
+
+String
+READ_SYSTEM_PREFERENCES
+Allows an application to access the Settings Preference services to read settings exposed by the system Settings app and system apps that contribute settings surfaced by the Settings app.
+
+String
+READ_VOICEMAIL
+Allows an application to read voicemails in the system.
+
+String
+REBOOT
+Required to be able to reboot the device.
+
+String
+RECEIVE_BOOT_COMPLETED
+Allows an application to receive the Intent.ACTION_BOOT_COMPLETED that is broadcast after the system finishes booting.
+
+String
+RECEIVE_MMS
+Allows an application to monitor incoming MMS messages.
+
+String
+RECEIVE_SMS
+Allows an application to receive SMS messages.
+
+String
+RECEIVE_WAP_PUSH
+Allows an application to receive WAP push messages.
+
+String
+RECORD_AUDIO
+Allows an application to record audio.
+
+String
+REORDER_TASKS
+Allows an application to change the Z-order of tasks.
+
+String
+REQUEST_COMPANION_PROFILE_APP_STREAMING
+Allows application to request to be associated with a virtual device capable of streaming Android applications (AssociationRequest.DEVICE_PROFILE_APP_STREAMING) by CompanionDeviceManager.
+
+String
+REQUEST_COMPANION_PROFILE_AUTOMOTIVE_PROJECTION
+Allows application to request to be associated with a vehicle head unit capable of automotive projection (AssociationRequest.DEVICE_PROFILE_AUTOMOTIVE_PROJECTION) by CompanionDeviceManager.
+
+String
+REQUEST_COMPANION_PROFILE_COMPUTER
+Allows application to request to be associated with a computer to share functionality and/or data with other devices, such as notifications, photos and media (AssociationRequest.DEVICE_PROFILE_COMPUTER) by CompanionDeviceManager.
+
+String
+REQUEST_COMPANION_PROFILE_GLASSES
+Allows app to request to be associated with a device via CompanionDeviceManager as "glasses"
+
+Protection level: normal
+
+String
+REQUEST_COMPANION_PROFILE_NEARBY_DEVICE_STREAMING
+Allows application to request to stream content from an Android host to a nearby device (AssociationRequest.DEVICE_PROFILE_NEARBY_DEVICE_STREAMING) by CompanionDeviceManager.
+
+String
+REQUEST_COMPANION_PROFILE_WATCH
+Allows app to request to be associated with a device via CompanionDeviceManager as a "watch"
+
+Protection level: normal
+
+String
+REQUEST_COMPANION_RUN_IN_BACKGROUND
+Allows a companion app to run in the background.
+
+String
+REQUEST_COMPANION_SELF_MANAGED
+Allows an application to create a "self-managed" association.
+
+String
+REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND
+Allows a companion app to start a foreground service from the background.
+
+String
+REQUEST_COMPANION_USE_DATA_IN_BACKGROUND
+Allows a companion app to use data in the background.
+
+String
+REQUEST_DELETE_PACKAGES
+Allows an application to request deleting packages.
+
+String
+REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+Permission an application must hold in order to use Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS.
+
+String
+REQUEST_INSTALL_PACKAGES
+Allows an application to request installing packages.
+
+String
+REQUEST_OBSERVE_COMPANION_DEVICE_PRESENCE
+Allows an application to subscribe to notifications about the presence status change of their associated companion device
+
+String
+REQUEST_OBSERVE_DEVICE_UUID_PRESENCE
+Allows an application to subscribe to notifications about the nearby devices' presence status change base on the UUIDs.
+
+String
+REQUEST_PASSWORD_COMPLEXITY
+Allows an application to request the screen lock complexity and prompt users to update the screen lock to a certain complexity level.
+
+String
+RESTART_PACKAGES
+This constant was deprecated in API level 15. The ActivityManager.restartPackage(String) API is no longer supported.
+
+String
+RUN_USER_INITIATED_JOBS
+Allows applications to use the user-initiated jobs API.
+
+String
+SCHEDULE_EXACT_ALARM
+Allows applications to use exact alarm APIs.
+
+String
+SEND_RESPOND_VIA_MESSAGE
+Allows an application (Phone) to send a request to other applications to handle the respond-via-message action during incoming calls.
+
+String
+SEND_SMS
+Allows an application to send SMS messages.
+
+String
+SET_ALARM
+Allows an application to broadcast an Intent to set an alarm for the user.
+
+String
+SET_ALWAYS_FINISH
+Allows an application to control whether activities are immediately finished when put in the background.
+
+String
+SET_ANIMATION_SCALE
+Modify the global animation scaling factor.
+
+String
+SET_BIOMETRIC_DIALOG_ADVANCED
+Allows an application to set the advanced features on BiometricDialog (SystemUI), including logo, logo description, and content view with more options button.
+
+String
+SET_DEBUG_APP
+Configure an application for debugging.
+
+String
+SET_PREFERRED_APPLICATIONS
+This constant was deprecated in API level 15. No longer useful, see PackageManager.addPackageToPreferred(String) for details.
+
+String
+SET_PROCESS_LIMIT
+Allows an application to set the maximum number of (not needed) application processes that can be running.
+
+String
+SET_TIME
+Allows applications to set the system time directly.
+
+String
+SET_TIME_ZONE
+Allows applications to set the system time zone directly.
+
+String
+SET_WALLPAPER
+Allows applications to set the wallpaper.
+
+String
+SET_WALLPAPER_HINTS
+Allows applications to set the wallpaper hints.
+
+String
+SIGNAL_PERSISTENT_PROCESSES
+Allow an application to request that a signal be sent to all persistent processes.
+
+String
+SMS_FINANCIAL_TRANSACTIONS
+This constant was deprecated in API level 31. The API that used this permission is no longer functional.
+
+String
+START_FOREGROUND_SERVICES_FROM_BACKGROUND
+Allows an application to start foreground services from the background at any time.
+
+String
+START_VIEW_APP_FEATURES
+Allows the holder to start the screen with a list of app features.
+
+String
+START_VIEW_PERMISSION_USAGE
+Allows the holder to start the permission usage screen for an app.
+
+String
+STATUS_BAR
+Allows an application to open, close, or disable the status bar and its icons.
+
+String
+SUBSCRIBE_TO_KEYGUARD_LOCKED_STATE
+Allows an application to subscribe to device locked and keyguard locked (i.e., showing) state.
+
+String
+SYSTEM_ALERT_WINDOW
+Allows an app to create windows using the type WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY, shown on top of all other apps.
+
+String
+TRANSMIT_IR
+Allows using the device's IR transmitter, if available.
+
+String
+TURN_SCREEN_ON
+Allows an app to turn on the screen on, e.g. with PowerManager.ACQUIRE_CAUSES_WAKEUP.
+
+String
+TV_IMPLICIT_ENTER_PIP
+Allows an app to enter Picture-in-Picture mode when the user is not explicitly requesting it.
+
+String
+UNINSTALL_SHORTCUT
+Don't use this permission in your app.
